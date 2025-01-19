@@ -10,4 +10,4 @@ def hello():
 
 @api_blueprint.route('/random-number', methods=['GET'])
 def get_random_number():
-    return jsonify({'number': random.randint(300, 800)})  # Random image size
+    return jsonify({'number': random.randint(1, 1000)})  # Random image size
